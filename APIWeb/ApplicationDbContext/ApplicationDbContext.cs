@@ -1,3 +1,4 @@
+﻿
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -8,4 +9,5 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
         : base(options)
     {
     }
+    public DbSet<APIWeb.Models.RegistrationRequest> RegisterRequests { get; set; }
 }

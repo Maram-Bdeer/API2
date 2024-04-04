@@ -265,3 +265,4 @@ C:\Users\User\source\repos\APIWeb\APIWeb\bin\Debug\net8.0\Microsoft.Extensions.I
 C:\Users\User\source\repos\APIWeb\APIWeb\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\User\source\repos\APIWeb\APIWeb\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\User\source\repos\APIWeb\APIWeb\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\User\source\repos\APIWeb\APIWeb\obj\Debug\net8.0\APIWeb.sourcelink.json

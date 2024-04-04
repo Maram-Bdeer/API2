@@ -1,12 +1,171 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\APIWeb\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb\\apiweb\\models\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\models\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb\\apiweb\\applicationdbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\applicationdbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb\\apiweb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb\\apiweb\\apiweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\apiweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb\\apiweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb\\apiweb\\models\\updateaccountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\models\\updateaccountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb\\apiweb\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb\\apiweb\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb\\apiweb\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T14:09:44.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APIWeb",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\APIWeb.csproj",
+              "RelativeDocumentMoniker": "APIWeb\\APIWeb.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\APIWeb.csproj",
+              "RelativeToolTip": "APIWeb\\APIWeb.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-04T14:08:54.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateAccountRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Models\\UpdateAccountRequest.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Models\\UpdateAccountRequest.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Models\\UpdateAccountRequest.cs",
+              "RelativeToolTip": "APIWeb\\Models\\UpdateAccountRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:59:15.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Program.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Program.cs",
+              "RelativeToolTip": "APIWeb\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAjwDUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:17:03.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Models\\RegistrationRequest.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Models\\RegistrationRequest.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Models\\RegistrationRequest.cs",
+              "RelativeToolTip": "APIWeb\\Models\\RegistrationRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:04:32.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "APIWeb\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAjwEIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:12:25.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "APIWeb\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\WeatherForecast.cs",
+              "RelativeToolTip": "APIWeb\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:17:01.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "APIWeb\\Models\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:38:20.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "APIWeb\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:33:22.476Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

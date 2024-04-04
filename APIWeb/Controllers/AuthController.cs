@@ -2,7 +2,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using LoginRequestModel = APIWeb.Models.LoginRequest;
-using RegisterRequestModel = APIWeb.Models.RegisterRequest;
+using RegisterRequestModel = APIWeb.Models.RegistrationRequest;
+
 
 namespace APIWeb.Controllers
 {
@@ -12,11 +13,15 @@ namespace APIWeb.Controllers
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly IHttpContextAccessor _contextAccessor;
+     
 
-        public AuthController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        public AuthController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, IHttpContextAccessor contextAccessor )
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _contextAccessor = contextAccessor;
+          
         }
 
         /// <summary>
@@ -32,7 +37,6 @@ namespace APIWeb.Controllers
                 return NotFound("User not found");
 
             var signInResult = await _signInManager.PasswordSignInAsync(user, request.Password, isPersistent: false, lockoutOnFailure: false);
-
             if (signInResult.Succeeded)
                 return Ok("Login successful");
             else
@@ -45,6 +49,7 @@ namespace APIWeb.Controllers
         /// <param name="request">Register request object</param>
         /// <returns>Register response</returns>
         [HttpPost("register")]
+
         public async Task<IActionResult> Register(RegisterRequestModel request)
         {
             var user = new IdentityUser
@@ -56,9 +61,19 @@ namespace APIWeb.Controllers
             var result = await _userManager.CreateAsync(user, request.Password);
 
             if (result.Succeeded)
+            {
+                using (var context = _contextAccessor.HttpContext.RequestServices.GetRequiredService<ApplicationDbContext>())
+                {
+                    context.RegisterRequests.Add(request);
+                    await context.SaveChangesAsync();
+                }
+
                 return Ok("Registration successful");
+            }
             else
+            {
                 return BadRequest(result.Errors);
+            }
         }
 
         /// <summary>
@@ -74,10 +89,7 @@ namespace APIWeb.Controllers
                 return NotFound("User not found");
 
             user.UserName = request.Name;
-            // Update user photo if needed
-
             var result = await _userManager.UpdateAsync(user);
-
             if (result.Succeeded)
                 return Ok("Account updated successfully");
             else
