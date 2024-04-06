@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\APIWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\APIWeb\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\APIWeb\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb\\apiweb\\models\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\models\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,37 +54,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
-              "RelativeToolTip": "APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T14:09:44.31Z",
+              "Title": ".gitattributes",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\.gitattributes",
+              "RelativeDocumentMoniker": ".gitattributes",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\.gitattributes",
+              "RelativeToolTip": ".gitattributes",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-04-06T14:31:16.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "APIWeb",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAPAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-04-06T14:18:17.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "APIWeb.csproj",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\APIWeb.csproj",
               "RelativeDocumentMoniker": "APIWeb\\APIWeb.csproj",
               "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\APIWeb.csproj",
               "RelativeToolTip": "APIWeb\\APIWeb.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-04T14:08:54.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T14:08:54.534Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UpdateAccountRequest.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Models\\UpdateAccountRequest.cs",
               "RelativeDocumentMoniker": "APIWeb\\Models\\UpdateAccountRequest.cs",
@@ -84,25 +104,11 @@
               "RelativeToolTip": "APIWeb\\Models\\UpdateAccountRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T13:59:15.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T13:59:15.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Program.cs",
-              "RelativeDocumentMoniker": "APIWeb\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Program.cs",
-              "RelativeToolTip": "APIWeb\\Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAjwDUAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T13:17:03.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RegistrationRequest.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Models\\RegistrationRequest.cs",
               "RelativeDocumentMoniker": "APIWeb\\Models\\RegistrationRequest.cs",
@@ -115,7 +121,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T14:09:44.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Program.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Program.cs",
+              "RelativeToolTip": "APIWeb\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAjwDUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:17:03.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "APIWeb\\Controllers\\AuthController.cs",
@@ -123,12 +153,11 @@
               "RelativeToolTip": "APIWeb\\Controllers\\AuthController.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAjwEIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T11:12:25.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T11:12:25.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "APIWeb\\WeatherForecast.cs",
@@ -140,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Models\\LoginRequest.cs",
               "RelativeDocumentMoniker": "APIWeb\\Models\\LoginRequest.cs",
@@ -148,12 +177,11 @@
               "RelativeToolTip": "APIWeb\\Models\\LoginRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T13:38:20.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T13:38:20.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "APIWeb\\Controllers\\WeatherForecastController.cs",
