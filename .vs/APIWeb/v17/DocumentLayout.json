@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\APIWeb2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\models\\participation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\models\\participation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\models\\entityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\models\\entityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\applicationdbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\applicationdbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\models\\entityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\models\\entityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\controllers\\chatcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\controllers\\chatcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\controllers\\participationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|solutionrelative:apiweb\\controllers\\participationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\APIWeb2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3762A300-13B7-4B89-9155-08C4315B514C}|APIWeb\\APIWeb.csproj|c:\\users\\user\\source\\repos\\apiweb2\\apiweb\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,14 +71,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NotificationController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\NotificationController.cs",
-              "RelativeDocumentMoniker": "APIWeb\\Controllers\\NotificationController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\NotificationController.cs",
-              "RelativeToolTip": "APIWeb\\Controllers\\NotificationController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAewBsAAAAfAAAA",
+              "Title": "Participation.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Models\\Participation.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Models\\Participation.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Models\\Participation.cs",
+              "RelativeToolTip": "APIWeb\\Models\\Participation.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:30:51.783Z",
+              "WhenOpened": "2024-04-14T12:19:36.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Models\\Message.cs",
+              "RelativeToolTip": "APIWeb\\Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:19:35.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Models\\Chat.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Models\\Chat.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Models\\Chat.cs",
+              "RelativeToolTip": "APIWeb\\Models\\Chat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:19:33.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "APIWeb\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:19:21.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "APIWeb\\Controllers\\ChatController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:19:17.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\ChatControllerTests.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Controllers\\ChatControllerTests.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\ChatControllerTests.cs",
+              "RelativeToolTip": "APIWeb\\Controllers\\ChatControllerTests.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:18:56.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\UserController.cs",
+              "RelativeToolTip": "APIWeb\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:18:08.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T14:09:44.31Z",
               "EditorCaption": ""
             },
             {
@@ -56,7 +187,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "APIWeb\\Controllers\\DocumentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:18:51.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ParticipationController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\ParticipationController.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Controllers\\ParticipationController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\ParticipationController.cs",
+              "RelativeToolTip": "APIWeb\\Controllers\\ParticipationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:18:41.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAANMBAAAAAAAAAAAAAOEBAAAGAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-04-14T12:13:06.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "APIWeb\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "APIWeb\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T21:30:51.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\Models\\Service.cs",
               "RelativeDocumentMoniker": "APIWeb\\Models\\Service.cs",
@@ -64,21 +247,7 @@
               "RelativeToolTip": "APIWeb\\Models\\Service.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:23:11.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
-              "RelativeToolTip": "APIWeb\\ApplicationDbContext\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAcwBsAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T14:09:44.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T21:23:11.655Z"
             }
           ]
         }
