@@ -57,7 +57,7 @@ namespace APIWeb.Controllers
             var result = await _userManager.DeleteAsync(user);
             if (result.Succeeded)
             {
-                // حذف المستخدم من قاعدة البيانات الخاصة بك
+                
                 _context.Users.Remove(_context.Users.Find(user.Id));
                 await _context.SaveChangesAsync();
 
@@ -82,7 +82,7 @@ namespace APIWeb.Controllers
         [HttpPost("add-room")]
         public async Task<IActionResult> AddRoom(string roomName, string adminName, string adminID, string time, int numUser, string roomType)
         {
-            // إضافة الغرفة إلى قاعدة البيانات مع المعلومات المقدمة
+           
             _context.Rooms.Add(new Room
             {
                 Name = roomName,

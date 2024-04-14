@@ -13,7 +13,7 @@ namespace APIWeb.Tests
         [Fact]
         public async Task GetAllChats_ReturnsOkObjectResult()
         {
-            // Arrange
+            
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
                 .UseInMemoryDatabase(databaseName: "TestDatabase")
                 .Options;
@@ -26,10 +26,10 @@ namespace APIWeb.Tests
 
                 var controller = new ChatController(context);
 
-                // Act
+            
                 var result = await controller.GetAllChats();
 
-                // Assert
+                
                 var okResult = Assert.IsType<OkObjectResult>(result);
                 var chats = Assert.IsAssignableFrom<List<Chat>>(okResult.Value);
                 Assert.Equal(2, chats.Count);
