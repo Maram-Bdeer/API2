@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\APIWeb.csproj": {}
+    "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\APIWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\APIWeb.csproj": {
+    "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\APIWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\APIWeb.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\APIWeb.csproj",
         "projectName": "APIWeb",
-        "projectPath": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\APIWeb.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\APIWeb.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\APIWeb\\APIWeb\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\APIWeb2\\APIWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,9 +83,17 @@
               "target": "Package",
               "version": "[4.3.8, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "Xunit": {
+              "target": "Package",
+              "version": "[2.7.1, )"
             }
           },
           "imports": [

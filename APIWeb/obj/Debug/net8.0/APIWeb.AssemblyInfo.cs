@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3093f71691ef8d0f871ef28f0f895da26e051520")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20cd896059947a203243f79417283b6b08601cfb")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
