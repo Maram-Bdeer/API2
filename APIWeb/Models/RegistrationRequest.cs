@@ -12,5 +12,8 @@ namespace APIWeb.Models
         public string Phone { get; set; }
         public string Room { get; set; }
         public string Status { get; set; } = "Pending";
+
+       
+
     }
 }

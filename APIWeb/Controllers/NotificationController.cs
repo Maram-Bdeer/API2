@@ -14,21 +14,26 @@ namespace APIWeb.Controllers
         {
             _context = context;
         }
-
         [HttpGet("entity-service/{roomName}")]
         public async Task<IActionResult> GetEntityServicesByRoom(string roomName)
         {
             var entityServices = await _context.EntityServices
                 .Where(es => es.RoomName == roomName)
-                .Select(es => new
-                {
-                    es.ServiceID,
-                    Service = es.Service.Name
-                })
+                .Join(_context.Services,  
+                      es => es.ServiceId,  
+                      s => s.Id,           
+                      (es, s) => new      
+                      {
+                          ServiceName = s.Name,
+                          RoomName = es.RoomName,
+                          Time = es.Time
+                      })
                 .ToListAsync();
 
             return Ok(entityServices);
         }
+
+
 
         [HttpDelete("entity-service/{entityID}")]
         public async Task<IActionResult> DeleteEntityService(string entityID)

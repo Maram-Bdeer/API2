@@ -11,6 +11,6 @@ namespace APIWeb.Models
         public string Email { get; set; }
         public string SourceId { get; set; }
         public string UserId { get; set; }
-        public DbSet<Notification> Notifications { get; set; }
+       
     }
 }

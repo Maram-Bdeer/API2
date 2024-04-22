@@ -7,5 +7,8 @@
         public string SenderID { get; set; }
         public string Email { get; set; }
         public List<Message> Content { get; set; }
+
+       
+
     }
 }

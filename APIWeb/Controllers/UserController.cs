@@ -17,7 +17,6 @@ namespace APIWeb.Controllers
             _context = context;
             _userManager = userManager;
         }
-
         [HttpPost("add-user")]
         public async Task<IActionResult> AddUser(string email, string username, string password, string phone, string room)
         {
@@ -28,17 +27,8 @@ namespace APIWeb.Controllers
             };
 
             var result = await _userManager.CreateAsync(user, password);
-
             if (result.Succeeded)
             {
-                _context.Users.Add(new User
-                {
-                    IdentityUser = user,
-                    Phone = phone,
-                    Room = room
-                });
-                await _context.SaveChangesAsync();
-
                 return Ok("User added successfully");
             }
             else
@@ -46,6 +36,8 @@ namespace APIWeb.Controllers
                 return BadRequest(string.Join(", ", result.Errors.Select(e => e.Description)));
             }
         }
+
+
 
         [HttpDelete("delete-user/{email}")]
         public async Task<IActionResult> DeleteUser(string email)
@@ -57,9 +49,12 @@ namespace APIWeb.Controllers
             var result = await _userManager.DeleteAsync(user);
             if (result.Succeeded)
             {
-                
-                _context.Users.Remove(_context.Users.Find(user.Id));
-                await _context.SaveChangesAsync();
+                var appUser = await _context.Users.FirstOrDefaultAsync(u => u.IdentityUserId == user.Id);
+                if (appUser != null)
+                {
+                    _context.Users.Remove(appUser);
+                    await _context.SaveChangesAsync();
+                }
 
                 return Ok("User deleted successfully");
             }
@@ -68,6 +63,7 @@ namespace APIWeb.Controllers
                 return BadRequest(string.Join(", ", result.Errors.Select(e => e.Description)));
             }
         }
+
 
         [HttpGet("get-users")]
         public async Task<IActionResult> GetUsers()
@@ -109,5 +105,28 @@ namespace APIWeb.Controllers
 
             return Ok("Room deleted successfully");
         }
+       
+        [HttpGet("get-all-requests")]
+        public async Task<ActionResult<IEnumerable<RegistrationRequest>>> GetRequests()
+        {
+            return await _context.RegistrationRequests.ToListAsync();
+        }
+
+        
+        [HttpPost("add-request")]
+        public async Task<ActionResult<RegistrationRequest>> AddRequest(RegistrationRequest request)
+        {
+            _context.RegistrationRequests.Add(request);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction("GetRequests", new { id = request.Id }, request);
+        }
+
+        [HttpGet("get-all-rooms")]
+        public async Task<ActionResult<IEnumerable<Room>>> GetAllRooms()
+        {
+            return await _context.Rooms.ToListAsync();
+        }
+
+
     }
 }

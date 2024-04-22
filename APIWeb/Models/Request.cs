@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 namespace APIWeb.Models
 {
@@ -9,6 +10,10 @@ namespace APIWeb.Models
             // أضف الخصائص الأخرى المطلوبة للطلب هنا
             public IdentityUser User { get; set; }
             public Document Document { get; set; }
-    }
     
+
+
+
+    }
+
 }

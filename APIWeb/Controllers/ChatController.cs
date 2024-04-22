@@ -63,4 +63,6 @@ public class ChatController : ControllerBase
 
         return CreatedAtAction(nameof(AddMessage), new { id = message.Id }, message);
     }
+    
+
 }

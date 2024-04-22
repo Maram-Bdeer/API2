@@ -18,10 +18,16 @@ namespace APIWeb.Controllers
         [HttpPost("participation")]
         public async Task<IActionResult> CreateParticipation(Participation participation)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _context.Participations.Add(participation);
             await _context.SaveChangesAsync();
             return Ok("Participation created successfully");
         }
+
 
         [HttpGet("participation/{adminID}")]
         public async Task<IActionResult> GetParticipationByAdmin(string adminID)
@@ -62,14 +68,35 @@ namespace APIWeb.Controllers
             await _context.SaveChangesAsync();
             return Ok("Document created successfully");
         }
-
         [HttpPost("service")]
-        public async Task<IActionResult> CreateService(Service service)
+        public async Task<IActionResult> CreateService([FromBody] Service service)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _context.Services.Add(service);
+
+            if (service.entityServices != null)
+            {
+                foreach (var entityService in service.entityServices)
+                {
+                    var existingService = await _context.Services.FindAsync(entityService.ServiceId);
+                    if (existingService == null)
+                    {
+                        return BadRequest("Service not found");
+                    }
+                    entityService.ServiceId = existingService.Id; 
+                    _context.EntityServices.Add(entityService);
+                }
+            }
+
             await _context.SaveChangesAsync();
             return Ok("Service created successfully");
         }
+
+
 
         [HttpGet("service/{serviceID}")]
         public async Task<IActionResult> GetServiceByID(string serviceID)
@@ -78,9 +105,18 @@ namespace APIWeb.Controllers
             if (service == null)
                 return NotFound("Service not found");
 
-            return Ok(service);
-        }
+            var serviceDto = new
+            {
+                Id = service.Id,
+                Name = service.Name,
+                Description = service.Description,
+                Cost = service.Cost,
+                Image = service.Image,
+                EntityServices = service.entityServices
+            };
 
+            return Ok(serviceDto);
+        }
         [HttpPost("entity-service")]
         public async Task<IActionResult> CreateEntityService(EntityService entityService)
         {
